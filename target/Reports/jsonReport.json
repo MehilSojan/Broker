@@ -1,0 +1,169 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-03T05:11:36.179Z",
+        "line": 3,
+        "name": "Verify search functionality for the multiple locality and description tag for the property",
+        "description": "",
+        "id": "to-validate-end-to-end-search-functionality-of-nobroker;verify-search-functionality-for-the-multiple-locality-and-description-tag-for-the-property",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22939945828,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Should Launch Browser and Load Url",
+            "match": {
+              "location": "StepDef_Search_Functionality.user_Should_Launch_Browser_and_Load_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 305303604,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Should Click on the Buy Property Option",
+            "match": {
+              "location": "StepDef_Search_Functionality.user_Should_Click_on_the_Buy_Property_Option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 415466054,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Should Select Mumbai from DropDown Option",
+            "match": {
+              "location": "StepDef_Search_Functionality.user_Should_Select_Mumbai_from_DropDown_Option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14731940248,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Should Enter the Value as Malad in Search Box and select multiple Location from DropDown",
+            "match": {
+              "location": "StepDef_Search_Functionality.user_Should_Enter_the_Value_as_Malad_in_Search_Box_and_select_multiple_Location_from_DropDown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1110307708,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Should Click on Search button",
+            "match": {
+              "location": "StepDef_Search_Functionality.user_Should_Click_on_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.test.StepDef_Search_Functionality.user_Should_navigate_to_criteria_page(StepDef_Search_Functionality.java:92)\r\n\tat ✽.User Should navigate to criteria page(file:src/test/resources/FeatureFile/Search_Functionality.feature:10)\r\n",
+              "duration": 36183409,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "User Should navigate to criteria page",
+            "match": {
+              "location": "StepDef_Search_Functionality.user_Should_navigate_to_criteria_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1877591,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User Should Select Multiple BHK type from Filter",
+            "match": {
+              "location": "StepDef_Search_Functionality.user_Should_Select_Multiple_BHK_type_from_Filter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1611711,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User Should Scroll Down to listing of Property",
+            "match": {
+              "location": "StepDef_Search_Functionality.user_Should_Scroll_Down_to_listing_of_Property()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1501354,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User Should Click on fourth Property",
+            "match": {
+              "location": "StepDef_Search_Functionality.user_Should_Click_on_fourth_Property()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2306696,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User Should navigate to fourth Property Details",
+            "match": {
+              "location": "StepDef_Search_Functionality.user_Should_navigate_to_fourth_Property_Details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1606064,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User Should scroll down upto Description section",
+            "match": {
+              "location": "StepDef_Search_Functionality.user_Should_scroll_down_upto_Description_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2044921,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User Should check for Description section",
+            "match": {
+              "location": "StepDef_Search_Functionality.user_Should_check_for_Description_section()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To validate end to end search functionality of nobroker",
+    "description": "",
+    "id": "to-validate-end-to-end-search-functionality-of-nobroker",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/Search_Functionality.feature",
+    "tags": []
+  }
+]

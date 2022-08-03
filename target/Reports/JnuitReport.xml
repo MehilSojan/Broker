@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="39.625929">
+<testcase classname="To validate end to end search functionality of nobroker" name="Verify search functionality for the multiple locality and description tag for the property" time="39.625929">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.test.StepDef_Search_Functionality.user_Should_navigate_to_criteria_page(StepDef_Search_Functionality.java:92)&#13;&#10;&#9;at ✽.User Should navigate to criteria page(file:src/test/resources/FeatureFile/Search_Functionality.feature:10)&#13;&#10;"><![CDATA[Given User Should Launch Browser and Load Url...............................passed
+When User Should Click on the Buy Property Option...........................passed
+And User Should Select Mumbai from DropDown Option..........................passed
+And User Should Enter the Value as Malad in Search Box and select multiple Location from DropDown.passed
+And User Should Click on Search button......................................passed
+Then User Should navigate to criteria page..................................failed
+When User Should Select Multiple BHK type from Filter.......................skipped
+And User Should Scroll Down to listing of Property..........................skipped
+And User Should Click on fourth Property....................................skipped
+Then User Should navigate to fourth Property Details........................skipped
+When User Should scroll down upto Description section.......................skipped
+And User Should check for Description section...............................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.test.StepDef_Search_Functionality.user_Should_navigate_to_criteria_page(StepDef_Search_Functionality.java:92)
+	at ✽.User Should navigate to criteria page(file:src/test/resources/FeatureFile/Search_Functionality.feature:10)
+]]></failure>
+</testcase>
+</testsuite>
